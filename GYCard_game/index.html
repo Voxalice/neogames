@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Guess the Card!</title>
+		<style>
+			body {
+				font-family: Verdana;
+			}
+			
+			#cards img {
+				border: 0.1em solid black;
+			}
+			
+			#cards img:hover {
+				border-color: gray;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<strong>Guess the Card</strong>
+		<p>This game allows you to test your pet's mental power! Can your pet guess which card you are thinking of? It costs ten Neopoints to play, and if your pet gets it right, not only do you win <strong>50</strong> Neopoints, but your pet's mental prowess may improve! </p>
+		
+		<center>
+			<img src="active pet" id="g_pet" /><br />
+			<strong id="g_cap">Please turn on your Javascript.</strong>
+			
+			<p> Choose a card and <span id="active">[pet]</span> will try and guess what you have chosen! </p>
+			
+			<div id="cards">
+				<img src="i/game_lines.gif" onclick="p(0)" />
+				<img src="i/game_square.gif" onclick="p(1)" />
+				<img src="i/game_circle.gif" onclick="p(2)" /> <br />
+				<img src="i/game_triangle.gif" onclick="p(3)" />
+				<img src="i/game_cross.gif" onclick="p(4)" />
+				<img src="i/game_plus.gif" onclick="p(5)" />
+			</div>
+		</center>
+		
+		<div id="l"></div>
+		
+		<script src="original.js"></script>
+		<!-- code @ original.js -->
+	</body>
+</html>
