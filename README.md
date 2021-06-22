@@ -6,7 +6,7 @@ Check it out! There's not much! At the very least, it's kinda working!
 
 # the games
 1. Potato Counter (fully working, not thoroughly anti-cheated)
-2. Guess the Card (soon to be working, doesn't need anti-cheat)
+2. Guess the Card (fully working, doesn't need anti-cheat)
 3. Test Your Strength (unprogrammed, currently excluded from the repo)
 
 # why?
