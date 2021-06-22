@@ -7,10 +7,10 @@ const n = 7*Math.random()|0;
 document.querySelector('#g_cap').innerText = c[c.length*Math.random()|0]
 function p(i) {
 	if (i==n) {
-		document.querySelector('#l').innerHTML = "<strong>[ACTIVE]</strong> says <em>'You are thinking of the "+o[i]+"</em><br /><br /><strong>Congratulations, your pet is psychic!</strong> You win 50 Neopoints!<br /><br /><strong><a href='.'>Play Again!</a></strong>";
+		document.querySelector('#l').innerHTML = "<strong>[ACTIVE]</strong> says <em>'You are thinking of the "+o[i]+"</em><br /><br /><strong>Congratulations, your pet is psychic!</strong> You win 50 Neopoints!<br /><br /><strong><a href='./index.html'>Play Again!</a></strong>";
 		// AWARD 60 NP HERE (60 - 10 = 50)
 	} else {
-		document.querySelector('#l').innerHTML = "<strong>[ACTIVE]</strong> says <em>'You are thinking of the "+o[i]+"</em><br /><br /><strong>Wrong!</strong>... <span id='a'>do or do not, there is no try.</span><br /><br /><strong><a href='.'>Play Again!</a></strong>";
+		document.querySelector('#l').innerHTML = "<strong>[ACTIVE]</strong> says <em>'You are thinking of the "+o[i]+"</em><br /><br /><strong>Wrong!</strong>... <span id='a'>do or do not, there is no try.</span><br /><br /><strong><a href='./index.html'>Play Again!</a></strong>";
 		document.querySelector('#a').innerText = w[n];
 	}
 	
